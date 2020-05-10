@@ -1,6 +1,8 @@
 #+TITLE: Org Roam Spacemacs Configuration Layer
 
-A custom spacemacs configuration layer for using https://github.com/org-roam/org-roam
+A custom spacemacs configuration layer for using
+
+https://github.com/org-roam/org-roam
 
 * Installation
 
@@ -26,4 +28,35 @@ A custom spacemacs configuration layer for using https://github.com/org-roam/org
     )
   #+END_SRC
 
+  Then restart spacemacs (~SPC q r~). When it restarts ~org-roam~ and all its dependencies will be installed.
+
 * Commands
+
+** Global
+
+   All commands are bound to ~SPC a r~
+  
+  | Key Binding      | Command                     | Description                        |
+  |------------------+-----------------------------+------------------------------------|
+  | ~SPC a r r~      | ~org-roam-find-file~        | Search all roam files              |
+  | ~SPC a r c~      | ~org-roam-capture~          | Capture roam entry                 |
+  | ~SPC a r b~      | ~org-raom-switch-to-buffer~ | Search all open roam files         |
+  | ~SPC a r t~      | ~org-roam-today~            | Open the roam entry for today      |
+  | ~SPC a r y~      | ~org-roam-yesterday-today~  | Open the roam entry for yesterday  |
+  | TODO ~SPC a r w~ | ~org-roam-weeklies-week~    | Open the roam entry for this week  |
+  | TODO ~SPC a r m~ | ~org-roam-weeklies-month~   | Open the roam entry for this month |
+
+** Minor Mode
+
+   All commands are bound to ~SPC m~ or  ~,~.
+
+  | Key Binding | Command              | Description                        |
+  |-------------+----------------------+------------------------------------|
+  | ~, f~       | ~org-roam-find-file~ | Display prompt to find a roam file |
+  | ~, g~       | ~org-roam-graph~     | Displays roam graph                |
+  | ~, i r~     | ~org-roam-insert~    | Insert link to roam file           |
+  | ~, r~       | ~org-roam~           | Toggles org-roam mode              |
+
+* Credit
+
+  Started from https://org-roam.readthedocs.io/en/master/installation/#spacemacs

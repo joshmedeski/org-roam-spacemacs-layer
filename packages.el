@@ -13,14 +13,15 @@
       (spacemacs/declare-prefix "ar" "org-roam")
       (spacemacs/set-leader-keys
        "arr" 'org-roam-find-file
-       "arl" 'org-roam
-       "art" 'org-roam-dailies-today
-       "arf" 'org-roam-find-file
-       "arg" 'org-roam-graph)
+       "arb" 'org-roam-switch-to-buffer
+       "arc" 'org-roam-capture
+       "art" 'org-roam-today
+       "ary" 'org-roam-yesterday)
 
       (spacemacs/declare-prefix-for-mode 'org-mode "mr" "org-roam")
       (spacemacs/set-leader-keys-for-major-mode 'org-mode
-                                                "rb" 'org-roam-switch-to-buffer
-                                                "rf" 'org-roam-find-file
-                                                "ri" 'org-roam-insert
-                                                "rg" 'org-roam-graph))))
+        "f" 'org-roam-find-file
+        "b" 'org-roam-switch-to-buffer
+        "g" 'org-roam-graph
+        "ir" 'org-roam-insert
+        "r" 'org-roam))))
