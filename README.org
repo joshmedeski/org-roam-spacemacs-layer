@@ -1,0 +1,29 @@
+#+TITLE: Org Roam Spacemacs Configuration Layer
+
+A custom spacemacs configuration layer for using https://github.com/org-roam/org-roam
+
+* Installation
+
+  First, clone the source code to the private directly.
+
+  #+NAME: Clone repository
+  #+BEGIN_SRC bash
+  # Clone with SSH
+  git clone git@github.com:joshmedeski/org-roam-spacemacs-layer.git ~/.emacs.d/private/org-roam
+
+  # Clone with HTTPS
+  git clone https://github.com/joshmedeski/org-roam-spacemacs-layer.git ~/.emacs.d/private/org-roam
+  #+END_SRC
+
+  Add ~org-roam~ to the ~dotspacemacs-configuration-layers~ list
+
+  #+NAME: Add to configuration layers list
+  #+BEGIN_SRC lisp
+   dotspacemacs-configuration-layers
+   '(
+     org-roam
+     ;; ...other layers
+    )
+  #+END_SRC
+
+* Commands
