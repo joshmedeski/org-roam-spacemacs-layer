@@ -35,13 +35,14 @@ https://github.com/org-roam/org-roam
 ** Global
 
    All commands are bound to ~SPC a r~
-  
+
   | Key Binding      | Command                     | Description                        |
   |------------------+-----------------------------+------------------------------------|
   | ~SPC a r r~      | ~org-roam-find-file~        | Search all roam files              |
   | ~SPC a r c~      | ~org-roam-capture~          | Capture roam entry                 |
-  | ~SPC a r b~      | ~org-raom-switch-to-buffer~ | Search all open roam files         |
+  | ~SPC a r b~      | ~org-roam-switch-to-buffer~ | Search all open roam files         |
   | ~SPC a r t~      | ~org-roam-today~            | Open the roam entry for today      |
+  | ~SPC a r T~      | ~org-roam-toomorrow~        | Open the roam entry for tomorrow   |
   | ~SPC a r y~      | ~org-roam-yesterday-today~  | Open the roam entry for yesterday  |
   | TODO ~SPC a r w~ | ~org-roam-weeklies-week~    | Open the roam entry for this week  |
   | TODO ~SPC a r m~ | ~org-roam-weeklies-month~   | Open the roam entry for this month |
@@ -52,7 +53,7 @@ https://github.com/org-roam/org-roam
 
   | Key Binding | Command              | Description                        |
   |-------------+----------------------+------------------------------------|
-  | ~SPC m f~   | ~org-roam-find-file~ | Display prompt to find a roam file |
+  | ~SPC m F~   | ~org-roam-find-file~ | Display prompt to find a roam file |
   | ~SPC m g~   | ~org-roam-graph~     | Displays roam graph                |
   | ~SPC m i r~ | ~org-roam-insert~    | Insert link to roam file           |
   | ~SPC m r~   | ~org-roam~           | Toggles org-roam mode              |
