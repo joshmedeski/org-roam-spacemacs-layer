@@ -8,9 +8,9 @@
       "arr" 'org-roam-find-file
       "arb" 'org-roam-switch-to-buffer
       "arc" 'org-roam-capture
-      "art" 'org-roam-today
-      "arT" 'org-roam-tomorrow
-      "ary" 'org-roam-yesterday)
+      "art" 'org-roam-dailies-today
+      "arT" 'org-roam-dailies-tomorrow
+      "ary" 'org-roam-dailies-yesterday)
 
     (spacemacs/declare-prefix-for-mode 'org-mode "mr" "org-roam")
     (spacemacs/set-leader-keys-for-major-mode 'org-mode
