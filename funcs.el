@@ -8,6 +8,7 @@
       "arr" 'org-roam-find-file
       "arb" 'org-roam-switch-to-buffer
       "arc" 'org-roam-capture
+      "ard" 'org-roam-date
       "art" 'org-roam-dailies-today
       "arT" 'org-roam-dailies-tomorrow
       "ary" 'org-roam-dailies-yesterday)
