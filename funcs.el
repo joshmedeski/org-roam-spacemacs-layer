@@ -19,4 +19,5 @@
       "b" 'org-roam-switch-to-buffer
       "g" 'org-roam-graph
       "ir" 'org-roam-insert
-      "r" 'org-roam)))
+      "r" 'org-roam
+      "u" 'org-roam-unlinked-references)))

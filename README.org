@@ -51,12 +51,14 @@ https://github.com/org-roam/org-roam
 
    All commands are bound to ~SPC m~ or  ~,~.
 
-  | Key Binding | Command              | Description                        |
-  |-------------+----------------------+------------------------------------|
-  | ~SPC m F~   | ~org-roam-find-file~ | Display prompt to find a roam file |
-  | ~SPC m g~   | ~org-roam-graph~     | Displays roam graph                |
-  | ~SPC m i r~ | ~org-roam-insert~    | Insert link to roam file           |
-  | ~SPC m r~   | ~org-roam~           | Toggles org-roam mode              |
+  | Key Binding | Command                        | Description                        |
+  |-------------+--------------------------------+------------------------------------|
+  | ~SPC m F~   | ~org-roam-find-file~           | Display prompt to find a roam file |
+  | ~SPC m g~   | ~org-roam-graph~               | Displays roam graph                |
+  | ~SPC m i r~ | ~org-roam-insert~              | Insert link to roam file           |
+  | ~SPC m r~   | ~org-roam~                     | Toggles org-roam mode              |
+  | ~SPC m u~   | ~org-roam-unlinked-references~ | Displays potential references for  |
+  |             |                                | the active file                    |
 
 * Credit
 
